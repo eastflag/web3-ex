@@ -51,7 +51,7 @@ function App() {
             <button onClick={() => setMintAmount(mintAmount - 1)}>-</button>
             {mintAmount}
             <button onClick={() => setMintAmount(mintAmount + 1)}>+</button>
-            {/*<button onClick={handleMint}></button>*/}
+            <button onClick={handleMint}>mint</button>
           </div>
         )
       }
